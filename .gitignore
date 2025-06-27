@@ -1,1 +1,46 @@
-#  add file's  ignore pull - push 
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# Visual Studio
+*.vs/
+
+# Auto-generated files
+Generated_Code/
+
+# Debugging files
+*.pdb
+*.cache
+*.log
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Temporary files
+~$*
+*.tmp
+*.bak
+
+# Publish
+publish/
+*.Publish.xml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
